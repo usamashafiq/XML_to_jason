@@ -1,0 +1,44 @@
+{
+  "abstract_method": [
+    {
+      "method_name": "authenticateUser",
+      "visibility": "public",
+      "arguments": {
+        "parameterameter": [
+          {
+            "tp_holdatype": "String",
+            "label": "account"
+          },
+          {
+            "tp_holdatype": "String",
+            "label": "password"
+          },
+          {
+            "tp_holdatype": "URL",
+            "label": "url"
+          }
+        ]
+      },
+      "exceptions": {
+        "exception": [
+          "RemoteException",
+          "MalformedURLException"
+        ]
+      },
+      "return": "boolean"
+    },
+    {
+      "method_name": "deleteUser",
+      "visibility": "private",
+      "arguments": {
+        "parameterameter": [
+          {
+            "tp_holdatype": "String",
+            "label": "user"
+          }
+        ]
+      },
+      "return": "void"
+    }
+  ]
+}
